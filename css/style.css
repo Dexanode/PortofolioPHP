@@ -1,0 +1,66 @@
+body{background:#FFFFFF;margin:0;padding:0;}
+#main{margin:10px auto;width:1124px;height:auto;padding:10px;border:2px solid #e9dc6a;}
+/* Logo */
+#logo{margin:0;width:50%;padding:0px;height:auto;}
+/* Menu Navigasi */
+#menu{margin:10px 0;padding:0;background: #f8c75d; width:100%;}
+#menu ul ul {
+ display: none;
+}
+#menu ul li:hover > ul {
+ display: block;
+}
+#menu ul {
+ margin:0; padding: 0; list-style: none; position: relative; display: inline-table;
+}
+#menu ul:after {
+ content: ""; clear: both; display: block;
+}
+#menu ul li {
+ float: left;
+}
+#menu ul li:hover {
+ background: #f0ba48;
+}
+#menu ul li:hover a {
+ color: #7d3704;
+}
+#menu ul li a {
+ display: block; padding: 10px 20px;
+ color: #944105; font-weight:bold;text-decoration: none; border-right: 1px solid #e8bd60;
+}
+#menu ul ul {
+ background: #5f6975; border-radius: 0px; padding: 0; position: absolute; top: 100%;
+}
+#menu ul ul li {
+ float: none; background: #f8c75d; border-top: 1px solid #e2b34f;
+ position: relative; cursor:pointer;
+}
+#menu ul ul li a {
+ padding: 10px 20px; color: #fff; 
+} 
+#menu ul ul li a:hover {
+ background: #f0ba48;
+}
+#menu ul ul ul {
+ position: absolute; left: 100%; top:0;
+}
+/* Kolom Kiri */
+.left{width:700px;float:left;padding:0;margin-top:10px;}
+.left>.box{width:100%;height:100px;margin:0;padding:10px 0;border-bottom:1px solid #e9dc6a;}
+.left>.img{width:100px;height:100px;float:left;margin:0;padding:0;}
+.left>.info{width:590px;height:100px;margin:0 0 0 5px;padding:0;}
+.left>.info h2{margin:0;padding:0;color:#8b420d;}
+.left>.info p{margin:0;padding:0;text-align:justify;}
+/* Kolom Kanan */
+.right{width:300px;float:right;padding:20px;margin-top:10px;min-height:50%;border:5px solid #e9dc6a;text-align:center;}
+.right>img{width:110px;height:110px;margin:0;}
+.right p{width:100%;padding:10px;margin:0;color:#56361e;}
+.right h2{margin:0;padding:15px;color:#8b420d;}
+.right input[type="text"]{width:100%;padding:10px;margin:4px 0;font-size:20px;border:2px solid #e9dc6a;}
+.right input[type="password"]{width:100%;padding:10px;margin:4px 0;font-size:20px;border:2px solid #e9dc6a;}
+.right input[type="radio"]{width:15px;height:15px;padding:0;margin:0;}
+.right label{font-size:20px;padding:0 10px 0 0;margin-top:10px;color:#663816;}
+.right button{width:100%;padding:10px;cursor:pointer;margin:10px 0;background:#e7b60e;font-size:20px;font-weight:bold;border:2px solid #dcb016;}
+/* Catatan Kaki */
+.footer{width:100%;clear:both;text-align:center;padding:10px 3px;margin-top:10px;}
